@@ -1,5 +1,5 @@
 # archives-check
-GitHub Action for archives python documentation linter
+GitHub Action for [archives](https://github.com/jpetrucciani/archives) python documentation linter
 
 ## Inputs
 
