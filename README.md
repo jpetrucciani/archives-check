@@ -23,6 +23,9 @@ None
 
 ```yaml
 uses: jpetrucciani/archives-check@master
+
+# or specify a path!
+uses: jpetrucciani/archives-check@master
 with:
   path: '.'
 ```

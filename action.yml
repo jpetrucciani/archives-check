@@ -7,7 +7,7 @@ branding:
 inputs:
   path:
     description: 'File or directory to run archives on'
-    required: true
+    required: false
     default: '.'
   disable:
     description: 'Comma separated list of rules to disable'
