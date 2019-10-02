@@ -1,0 +1,24 @@
+# action.yml
+name: 'Archives Check'
+description: 'GitHub action to lint your python documentation with archives'
+branding:
+  icon: 'archive'
+  color: 'blue'
+inputs:
+  path:
+    description: 'File or directory to run archives on'
+    required: true
+    default: '.'
+  disable:
+    description: 'Comma separated list of rules to disable'
+    required: false
+    default: ''
+outputs:
+  output:
+    description: 'The output of archives'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.path }}
+    - ${{ inputs.disable }}
