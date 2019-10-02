@@ -6,11 +6,13 @@ GitHub Action for archives python documentation linter
 ### `path`
 
 **Required** The path to run archives on
+
 **Default** `"."`
 
 ### `disable`
 
 **Optional** A comma separated list of rules to disable
+
 **Default** `""`
 
 ## Outputs
