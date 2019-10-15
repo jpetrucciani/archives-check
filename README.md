@@ -5,7 +5,7 @@ GitHub Action for [archives](https://github.com/jpetrucciani/archives) python do
 
 ### `path`
 
-**Required** The path to run archives on
+**Optional** The path to run archives on
 
 **Default** `"."`
 
