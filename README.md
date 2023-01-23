@@ -1,4 +1,5 @@
 # archives-check
+
 GitHub Action for [archives](https://github.com/jpetrucciani/archives) python documentation linter
 
 ## Inputs
@@ -22,10 +23,10 @@ None
 ## Example usage
 
 ```yaml
-uses: jpetrucciani/archives-check@master
+uses: jpetrucciani/archives-check@main
 
 # or specify a path!
-uses: jpetrucciani/archives-check@master
+uses: jpetrucciani/archives-check@main
 with:
   path: '.'
 ```
